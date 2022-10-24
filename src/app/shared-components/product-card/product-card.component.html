@@ -1,0 +1,14 @@
+<div class="card" style="width: 18rem">
+  <img
+    class="card-img-top"
+    [src]="productItem.MainImageUrl"
+    alt="Card image cap"
+  />
+  <div class="card-body">
+    <h5 class="card-title">{{ productItem.Name }}</h5>
+
+    <a routerLink="/products/inner/{{ productItem.Id }}" class="btn btn-light"
+      >show more</a
+    >
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="card" style="width: 18rem">
+  <img
+    class="card-img-top"
+    [src]="recipeItem.MainImageUrl"
+    alt="Card image cap"
+  />
+  <div class="card-body">
+    <h5 class="card-title">{{ recipeItem.Name }}</h5>
+
+    <a routerLink="/recipes/inner/{{ recipeItem.Id }}" class="btn btn-light"
+      >show more</a
+    >
+  </div>
+</div>

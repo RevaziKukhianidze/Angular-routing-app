@@ -1,0 +1,9 @@
+<div class="card mb-3">
+  <img [src]="currentProduct.CoverImages[0]" class="card-img-top" alt="..." />
+
+  <div class="card-body">
+    <img [src]="currentProduct.MainImageUrl" alt="" />
+    <h5 class="card-title">{{ currentProduct.Name }}</h5>
+    <p class="card-text" [innerHTML]="currentProduct.LongDescription"></p>
+  </div>
+</div>

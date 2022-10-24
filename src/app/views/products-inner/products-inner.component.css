@@ -1,0 +1,27 @@
+.card .card-img-top {
+  max-height: 400px !important;
+  object-fit: cover;
+}
+
+.card .card-body img {
+  top: -112px;
+  position: absolute;
+  width: 200px;
+  background: transparent;
+  max-height: 235px;
+  object-fit: contain;
+}
+
+.card .card-body {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+.card-title {
+  margin-left: 220px;
+}
+
+.card-text {
+  margin-top: 70px;
+}
